@@ -11,7 +11,7 @@ import jieba
 import gensim
 from sklearn.metrics.pairwise import cosine_similarity
 # Create your views here.
-model = gensim.models.Word2Vec.load("dbscan_w2v/w2v_ch.model")
+model = gensim.models.Word2Vec.load("Dbscapi/w2v_ch.model")
 def dbsc(request):
 	if request.POST and request.method =='POST':
 		data = request.POST
