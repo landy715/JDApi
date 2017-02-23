@@ -19,5 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^Japi/', include('Japi.urls', namespace='Japi')),
-    url(r'^Dbscapi/', include('Dbscapi.urls', namespace='Dbscapi')),
+    url(r'^Dbscapi/', include('Dbscapi.urls', namespace='Dbscapi'))
 ]
